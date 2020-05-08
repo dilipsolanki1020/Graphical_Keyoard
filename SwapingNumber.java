@@ -24,7 +24,7 @@ public class SwapingNumber extends JFrame implements ActionListener {
     //List<Integer> dataList2 = new ArrayList<Integer>();
     //List<Integer> dataList3 = new ArrayList<Integer>(); 
     Color dclr = new Color(255,21,21);
-    int pin=1234;
+    int pin=1234;//default PIN
     public SwapingNumber(){
         panel1=new JFrame("keypad for ATM");
         panel1.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
